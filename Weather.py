@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtGui import QFont
 
 # Replace with your own OpenWeatherMap API key
-API_KEY = '56ea6085fe9103bbb966a4f855aac08f'  # <-- PUT YOUR API KEY HERE
+API_KEY = 'YOUR_OPENWEATHERMAP_API_KEY'  # <-- PUT YOUR API KEY HERE
 
 def get_weather(city):
     """Fetch weather data for a city from OpenWeatherMap API."""
